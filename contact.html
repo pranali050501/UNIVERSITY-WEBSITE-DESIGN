@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,200;0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>UNIVERSITY WEBSITE _EASY</title>
+</head>
+
+<body>
+    <div class="sub-header">
+        <div class="nav">
+            <div>
+                <a href=""><img class="logo" src="/IMG/logo.png" alt=""></a>
+            </div>
+            <div class="navlist" id="navLinks">
+                <i class="fa fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/bolg.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <h1>Contact Us</h1>
+    </div>
+
+    <!-- contact us content -->
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.091833528302!2d72.86497729999995!3d19.23482910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0cfc417db03%3A0x24f97a88e4053ab8!2sSona%20Gold%20Digital%20Cinema!5e0!3m2!1sen!2sin!4v1690885164616!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact_us">
+        <div class="row">
+            <div class="contact_column">
+                <div>
+                    <i class="fas fa-home"></i>
+                    <span>
+                        <h5>Sona Gold Digital Cinema
+                            Veena CHSL, near National Park, Shantivan, Borivali East, Mumbai, Maharashtra 400066</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <span>
+                        <h5>+918800114565</h5>
+                        <p>Monday to Saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <span>
+                        <h5>info@eduford.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact_col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Massage"></textarea>
+                    <button type="submit" class="hero_botton red_btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Although proudly rooted in Mumbai, our community and impact are global.The University <br>of London is
+            the UK’s
+            leading provider of online and distance education internationally,<br> offering programmes to 45,000
+            students in 190 countries around the world.<br> Although proudly rooted in London, our community and
+            impact
+            are
+            global.</p>
+        <icon class="icons"><i class="fab fa-facebook"></i></icon>
+        <icon class="icons"><i class="fab fa-instagram"></i></icon>
+        <icon class="icons"><i class="fab fa-twitter"></i></icon>
+        <icon class="icons"><i class="fab fa-linkedin"></i></icon>
+
+    </div>
+    <p class="center">Made with<icon class="icons"><i class="far fa-heart"></i>by university Eduford</icon>
+    </p>
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>

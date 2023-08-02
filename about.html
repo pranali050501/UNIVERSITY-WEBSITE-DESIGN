@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mrs+Saint+Delafield&family=Poppins:ital,wght@0,200;0,300;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>UNIVERSITY WEBSITE _EASY</title>
+</head>
+
+<body>
+    <div class="sub-header">
+        <div class="nav">
+            <div>
+                <a href=""><img class="logo" src="/IMG/logo.png" alt=""></a>
+            </div>
+            <div class="navlist" id="navLinks">
+                <i class="fa fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="/about.html">ABOUT</a></li>
+                    <li><a href="/course.html">COURSE</a></li>
+                    <li><a href="/bolg.html">BLOG</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <h1>Who we are</h1>
+        <p>Although proudly rooted in Mumbai, our community and impact are global.</p>
+    </div>
+
+    <!-- about us content -->
+
+    <div class="about_us">
+        <div class="row">
+            <div class="about_column">
+                <h1>What we do ?</h1>
+                <p>The University of London is the UK’s leading provider of online and distance education
+                    internationally, offering programmes to 45,000 students in 190 countries around the world. Although
+                    proudly rooted in Mumbai, our community and impact are global.
+                    <br>
+                    <br>
+                    We are a national leader in the humanities, and we promote their value to society and the economy
+                    through knowledge creation and exchange.
+                    <br>
+                    <br>
+                    We are also a federation of 17 esteemed higher education institutions, with collaboration at the
+                    heart of our ethos. The University of London federation is a collective community of more than
+                    240,000 learners and 50,000 staff, delivering world-leading research across all disciplines.
+                    <br>
+                    <br>
+                    Our passion for increasing access to education and mobilising the collective power and expertise of
+                    the federation is central to our ability to transform lives around the world and address the global
+                    challenges of the future.
+                </p>
+
+                <a href="" class="hero_botton red_btn">EXPLORE NOWS</a>
+            </div>
+            <div class="about_column">
+                <img src="/IMG/about.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Although proudly rooted in Mumbai, our community and impact are global.The University <br>of London is
+            the UK’s
+            leading provider of online and distance education internationally,<br> offering programmes to 45,000
+            students in 190 countries around the world.<br> Although proudly rooted in London, our community and
+            impact
+            are
+            global.</p>
+        <icon class="icons"><i class="fab fa-facebook"></i></icon>
+        <icon class="icons"><i class="fab fa-instagram"></i></icon>
+        <icon class="icons"><i class="fab fa-twitter"></i></icon>
+        <icon class="icons"><i class="fab fa-linkedin"></i></icon>
+
+    </div>
+    <p class="center">Made with<icon class="icons"><i class="far fa-heart"></i>by university Eduford</icon>
+    </p>
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+</body>
+
+</html>
